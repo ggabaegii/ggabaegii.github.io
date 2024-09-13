@@ -14,12 +14,12 @@
 - .html
 - .html
 - .html
-- css폴더
-  |- index.css
-  |- .css
-  |- .css
-- images 폴더
-   |- .img
+- css폴더   
+  |- index.css   
+  |- .css   
+  |- .css   
+- images 폴더   
+   |- .img   
 
 ## 프로젝트 규칙
 - index.html
