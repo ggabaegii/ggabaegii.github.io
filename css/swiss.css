@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+    background-color: #f8f9fa;
+  }
+  
+  header {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 3em;
+  }
+  
+  nav {
+    background-color: #f1f1f1;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #343a40;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+    color: #007bff;
+  }
+  
+  main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+  }
+  
+  section h3 {
+    font-size: 1.8em;
+    margin-top: 20px;
+  }
+  
+  section p {
+    font-size: 1.1em;
+    line-height: 1.8;
+  }
+  
+  /* 이미지 크기 일정하게 설정 */
+  .img-fluid {
+    max-width: 100%;  /* 반응형을 유지하기 위해 최대 너비 설정 */
+    width: 800px;     /* 모든 이미지를 300px 너비로 통일 */
+    height: 500px;    /* 고정된 높이로 설정 */
+    margin: 15px 0;
+    border-radius: 8px;
+    object-fit: cover; /* 이미지가 영역을 채우되 비율 유지 */
+  }
+  
+  @media (min-width: 768px) {
+    main {
+      padding: 60px 40px;
+    }
+  
+    section h2 {
+      font-size: 3em;
+    }
+  
+    section p {
+      font-size: 1.2em;
+    }
+  }
+  
