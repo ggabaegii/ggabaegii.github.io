@@ -32,10 +32,10 @@
   *  소소한 정보들 : 추천하는 옷차림, 가격, 해당 국가의 화폐 단위, (+환율)
 
 ## 깃허브 규칙
-1. commit 규칙 : 파일명_작업 내용
+1. commit 규칙 : 작업 내용
 2. pull request 후 조장에게 알리기
 3. PR 메시지 규칙   
-   * title : 파일명_작업 및 기능 설명
+   * title : 작업 및 기능 설명
    * comment : 부연 설명
    * merge 방식 : "merge commit"
 
